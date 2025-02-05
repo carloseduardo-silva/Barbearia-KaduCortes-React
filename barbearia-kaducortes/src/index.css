@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.media-icon{
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+ }
+
+ .media-icon:hover{
+  transform: scale(1.1);
+  transition: 300ms;
+
+
+
+ }
+
+  .none{
+      display: none;
+  }
+
+  
+

@@ -1,0 +1,66 @@
+.home_header header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/fundo3-black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1em 0em 0em 0em;
+    color: white;
+    text-align: center;
+    height: 99vh;
+}
+
+section#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#topo p {
+    font-size: 1.4em;
+    margin: 0.7em 0em 5em 0em;
+    color: white;
+    max-width: 75%;
+   
+    
+}
+
+#topo h1 {
+    font-size: 4em;
+    color:#fffffff8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+   
+}
+
+#topo a.agendamento{
+    color:rgb(246, 246, 246);
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color:#f5b802f8;
+    padding: 13px 30px;
+    border: 0.35px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topo a.agendamento:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+p.topo-p {
+    font-size: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+
+}

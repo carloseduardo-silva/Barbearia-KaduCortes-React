@@ -1,0 +1,98 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.media-icon{
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+ }
+
+ .media-icon:hover{
+  transform: scale(1.1);
+  transition: 300ms;
+
+
+
+ }
+
+.none{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.bold {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  font-size: 13px;
+}
+
+.desktop{
+  display: none;
+}
+
+
+.item{
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+
+.hide{
+  display: none;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(13px);
+  transition: all 0.7s;
+}
+
+.show{
+  opacity: 1;
+  animation: show 5s ;
+  filter: blur(0px);
+  transition: all 0.95s;
+
+}
+
+.showSlide{
+  opacity: 1;
+  animation: show 3s ;
+  filter: blur(0px);
+  transition: all 0.85s;
+
+}
+
+
+@keyframes show {
+  from{
+     
+      opacity: 1;
+    
+  }
+  to{
+    
+      opacity: 1;
+  }
+  
+}
+
+@keyframes showSlide {
+
+  from{
+      
+      transform: translateX(-6rem);
+  }
+  to{
+      transform: translateX(-6rem);
+      
+  }
+  
+}

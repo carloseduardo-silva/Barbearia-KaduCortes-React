@@ -1,0 +1,173 @@
+#menu-hamburguer{
+    margin-top:0.25em;
+   
+    font-size: 2.5em;
+    color: white;
+    cursor: pointer;
+    margin-right: 1em;
+}
+#menu-hamburguer:hover{
+    color:#f5b802f8;
+    transition: 800ms;
+    font-size:2.7em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(34, 34, 34, 0.779);
+    padding: 22px 20px;
+    margin-bottom: 18vh;
+    width: 98.2%;
+}
+
+a#logo{
+    font-size:3em;
+}
+
+a#logo:hover{
+    color:#f5b802f8;
+    transition: 800ms;
+    transform: scale(1.1);
+}
+
+nav a#logo{
+    text-decoration: none;
+    color:white;
+    font-family: YellowTail, sans-serif;
+    font-size: 2.45em;
+    font-weight: 800;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 1.5em;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+    margin: 1.8em 0em 0.5em 0em;
+}
+nav ul li a {
+    display:inline-block;
+    padding: 2px;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color:#f5b802f8;
+    transition: 500ms;
+    transform: scale(1.05);
+} 
+
+.nav-icons{
+    display: none;
+}
+
+.li-icons{
+    display: none;
+}
+
+#nav-fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#mobile-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98.2%;
+}
+
+.li-mais{
+    display: none;
+}
+
+#nav-mais{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 12%;
+    font-family: 'Poppins', sans-serif;
+    top: 30%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/fundo3-black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1em 0em 0em 0em;
+    color: white;
+    text-align: center;
+    height: 99vh;
+}
+
+section#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#topo p {
+    font-size: 1.4em;
+    margin: 0.7em 0em 5em 0em;
+    color: white;
+    max-width: 75%;
+   
+    
+}
+
+#topo h1 {
+    font-size: 4em;
+    color:#fffffff8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+   
+}
+
+#topo a.agendamento{
+    color:rgb(246, 246, 246);
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color:#f5b802f8;
+    padding: 13px 30px;
+    border: 0.35px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#topo a.agendamento:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+p.topo-p {
+    font-size: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+
+}

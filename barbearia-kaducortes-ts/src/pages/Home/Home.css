@@ -1,0 +1,638 @@
+section#about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b1b;
+    color:#fffffff8;
+    padding: 5px 2em;
+    height: 98vh;
+    
+
+}
+
+
+
+
+section#about h1{
+    font-size: 5.25em;
+    color: white ;
+    margin-bottom: 0.5em;
+  
+}
+
+div#content{
+    margin: 1em;
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+section#about p{
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+section#about img{
+    width: 100%;
+    max-width: 768px;
+    text-align: center;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.76);
+    border: 0.08px solid rgba(0, 0, 0, 0.821);
+    margin: 10px;
+}   
+
+
+
+section#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: url(../imagens/fundo6-black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:#fffffff8;
+    padding: 1em 1em 9em 1em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section#services h1{
+    font-size: 4.5em;
+    margin-top: 1.6em;
+    margin-bottom: 1.5em;
+    color: #f6f6f6f8 ;
+   
+}
+
+div.row{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    margin: 1.4em 0.2em;
+    font-size: 1.45em;
+    border-bottom: 1.5px solid #fffffff8;
+}
+
+
+
+
+ section#galeria img{
+    text-align: center;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.76);
+    border: 0.08px solid black;
+    margin: 18px 22px;
+}   
+
+section#galeria img:hover{
+    border: 1px solid #f5b802f8;
+    transform: scale(1.1);
+    transition: 450ms;
+    cursor: pointer;
+}
+
+
+section#galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #1b1b1b;
+    color:#fffffff8;
+    padding: 7em 1em 9em 1em;
+    
+
+}
+
+section#galeria h1{
+    font-size: 5em;
+    color: white ;
+    margin-bottom: 1em;
+}
+
+div.mainDiv-photo{
+    width: 60%;
+}
+
+div.div-photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cdcdcd;
+    background-image: url(../imagens/fundo2-black.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2em 1em;
+ 
+    
+}
+
+
+#contact h1{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em 1.1em 0em;
+    font-size: 4.3em;
+    font-weight: 700;
+    color: white;
+    
+    
+}
+
+#form-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4em;    
+}
+
+
+
+.email-info input{
+    width: 100%;
+}
+
+.message-info input{
+    width: 100%;
+}
+
+#submit-formContact{
+    font-size: 20px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+#form-contact input {
+    
+    color: black;
+    background-color: rgb(239, 239, 239);
+    
+
+}
+
+#form-contact input:hover{
+    background-color: #f7d05cec;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#form-contact input#message {
+padding: 6px 3px 120px 3px;
+
+}
+
+#name{
+    margin-right: 30px;
+    padding: 7.5px;
+}
+
+#tel{
+    padding: 7.5px;
+}
+
+#email{
+    padding: 7.5px 0px 7.5px 7.5px;
+
+}
+
+
+#contatotitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 100%;
+   
+
+}
+
+section#secondary-contact{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 4em 2em 5em 2em;
+    background-color:  #1b1b1b;
+    color: white;
+    
+}
+
+section#secondary-contact p{
+    color: rgb(220, 220, 220);
+}
+
+section#secondary-contact a {
+    color: rgb(220, 220, 220);
+}
+
+div#contato-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 80%;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+h1.contact-title{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+
+div#contato-content p {
+    font-size: 14px;
+    text-align: center;
+    margin:18px;
+}
+
+div#contato-content button{
+    display: flex;
+    align-items: center;
+    background-color:#ebb209f8 ;
+    padding: 4px 14px 4px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 8px;
+}
+
+div#contato-content button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+div#contato-content button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px
+}
+
+
+div#contato-content img{
+    width: 30px;
+    height: 30px;
+}
+
+div#contato-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+div.row-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 1em 5px;
+    padding: 1em 0em;
+
+}
+
+div.row-contato a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#localization{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    background-size: cover;
+    padding: 2em 1em;
+ 
+    
+}
+
+iframe{
+   
+    box-shadow: 3px 3px 16px black;
+    height: 80vh;
+    width: 99.5%;
+}
+
+@media (min-width: 788px) {
+
+ 
+
+    #topo h1{
+        font-size: 5em;
+    }
+
+    #topo a.agendamento{
+        font-size: 1.2em;
+
+
+    }
+
+
+    div.div-photo{
+        flex-direction: row;
+
+    }
+
+  
+    div.row{
+      
+        font-size: 1.65em;
+      
+    }
+
+    div.name-info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #name{
+        width: 100%;
+    }
+
+    #tel{
+        width: 100%;
+    }
+
+    #form-contact{
+        width: 80%;
+        max-width: 670px;
+    }
+
+    footer{
+        flex-direction: row;
+        gap: 1.35;
+        padding: 2.5em 1.25em;
+        justify-content: space-between;
+    }
+
+    .right{
+        text-align: right;
+        margin-right: 5em;
+        margin-bottom: 3.5em;
+
+    }
+   
+}
+
+@media (min-width:875px) {
+
+  
+    .right{
+        text-align: right;
+        margin-right: 7.5vw;
+    }
+
+    section#secondary-contact{
+        padding: 7em 2em 6em 2em;
+    }
+ 
+    
+}
+
+
+@media (min-width:1000px) {
+
+    header{
+        padding: 3.5em 0em 0em 0em;
+
+    }
+
+    div.foto{
+        display: flex;
+        background-color: #f5b802f8;
+        height: 90%;
+        width: 469px;
+        max-width: 469px;
+    }
+
+    div.foto img{
+        height: 51vw;
+        max-height: 740px;
+
+    }
+    
+       
+    section#about h1 {
+    font-size:9vw;
+    text-align: left;
+    margin-bottom: 5px;
+
+    }
+
+    div#content{
+        padding: 5px;
+        margin: 0em 0em 1em 5em;
+        max-width: 600px;
+        text-align: left;
+    }
+
+    section#about p{
+        font-size:1.43em;
+
+       }
+       
+    section#about h1 {
+    font-size:6em;
+    text-align: left;
+    margin-bottom: 7px;
+
+    }
+
+    section#about{
+        padding:4.5em;
+        height: auto;
+    }
+    
+    section#secondary-contact{
+        justify-content: space-around;
+        padding: 9em 2em;
+        flex-direction: row;
+       
+    }
+
+    div#contato-content{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content:space-around ;
+        width: 45%;
+        max-width: 500px;
+        padding: 1em;
+        margin-bottom: 0px;
+    }
+
+    h1.contact-title{
+        text-align: start;
+    }
+    
+    div#contato-content p {
+        font-size: 18px;
+        text-align: start;
+        margin:18px 0px;
+    }
+
+    div#contato-content button{
+        align-items: center;
+        padding: 1em;
+        margin: 10px 0px;
+    }
+
+    div#contato-content button a {
+        font-size: 18px;
+    }
+
+    div.row-contato{
+        gap: 15px;
+        margin: 2em 5px;
+    }
+
+    div.row-contato p {
+        font-size: 20px;
+
+    }
+
+    div.row-contato a {
+        font-size: 20px;
+
+    }
+
+    div.row-contato span {
+        font-size: 29px;
+        
+    }
+
+
+    
+}
+
+
+@media (max-width: 965px ) {
+
+
+    #contato{
+        flex-direction: column;
+        height: 670px;
+        
+    }
+    
+}
+
+
+@media (max-width: 598px ) {
+
+
+    
+    section#about p{
+        font-size:16px;
+
+       }
+       
+    section#about h1 {
+    font-size:3.85em;
+    text-align: center;
+
+    }
+
+    div#content{
+        padding: 5px;
+    }
+
+  
+
+    #form-contact{
+        width: 70%;
+    }
+
+    #form-contact input{
+        width: 100%;
+    }
+    #name{
+        margin-bottom: 20px;
+    }
+
+    div.div-photo{
+        flex-direction: column;
+
+    }
+
+    
+    div.mainDiv-photo{
+    width: 85%;
+    }
+
+    img{
+        height:auto;
+        max-width: none;
+        width: 100%;
+        margin: 10px;
+    }
+
+ 
+    
+}
+
+
+@media (min-width:598px) {
+        section#galeria img{
+            max-width: 338px;
+        
+        }  
+        
+}
+
+
+@media (max-width: 395px ) {
+
+        body{
+            width: 172%;
+        }
+        
+        #topo p {
+            font-size: 1.3em;
+        }
+
+        #topo h1 {
+            font-size: 2.5em;
+        }
+
+        #contact p a {
+            font-size: 12px;
+           }
+        
+        #contact p {
+            font-size: 12px;
+            }
+
+        
+        section#about p{
+            font-size:5vw
+
+            }
+        section#about h1 {
+            font-size:20vw
+
+            }
+}

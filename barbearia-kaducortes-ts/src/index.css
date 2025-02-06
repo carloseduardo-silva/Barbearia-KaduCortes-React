@@ -1,6 +1,9 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 .media-icon{
   width: 25px;
@@ -13,8 +16,6 @@
  .media-icon:hover{
   transform: scale(1.1);
   transition: 300ms;
-
-
 
  }
 
@@ -68,6 +69,14 @@
   filter: blur(0px);
   transition: all 0.85s;
 
+}
+
+.row::before{
+  display: none;
+}
+
+.row::after{
+  display: none;
 }
 
 

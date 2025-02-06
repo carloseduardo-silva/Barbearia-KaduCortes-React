@@ -1,4 +1,5 @@
 import * as React from "react"
+import "./HeaderAgendamento.css"
 
 export interface HeaderAgendamentoProps extends React.AnchorHTMLAttributes<HTMLAnchorElement>{
 

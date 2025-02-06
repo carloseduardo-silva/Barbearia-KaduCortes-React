@@ -1,4 +1,8 @@
-import React from 'react'
+
+import whatsapp from "../../imagens/icons8-whatsapp2-50.png"
+import instagram from "../../imagens/icons8-instagram-50.png"
+
+
 import "./Footer.css"
 
 export const Footer = () => {
@@ -19,12 +23,12 @@ export const Footer = () => {
 
         
             <a target="_blank" href="https://www.instagram.com/kaducortes.ofc/">
-                <img className="media-icon" src="/imagens/icons8-instagram-50.png" alt=""/>
+                <img className="media-icon" src={instagram} alt=""/>
             </a>
 
-            <img className="media-icon" src="/imagens/icons8-spotify-30.png" alt=""/>
+            {/* <img className="media-icon" src="/imagens/icons8-spotify-30.png" alt=""/> */}
 
-             <a  target="_blank" href="https://www.contate.me/barbearia-kaducortes"><img className="media-icon" src="/imagens/icons8-whatsapp2-50.png" alt=""/> </a>
+             <a  target="_blank" href="https://www.contate.me/barbearia-kaducortes"><img className="media-icon" src={whatsapp} alt=""/> </a>
 
         
         </div>

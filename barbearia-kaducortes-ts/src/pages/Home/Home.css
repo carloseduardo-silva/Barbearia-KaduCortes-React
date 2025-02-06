@@ -12,8 +12,6 @@ section#about{
 }
 
 
-
-
 section#about h1{
     font-size: 5.25em;
     color: white ;
@@ -50,7 +48,7 @@ section#services{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    background-image: url(../imagens/fundo6-black.png);
+    background-image: url(../../imagens/fundo6-black.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -134,7 +132,7 @@ div.div-photo{
     flex-direction: column;
     align-items: center;
     background-color: #cdcdcd;
-    background-image: url(../imagens/fundo2-black.png);
+    background-image: url(../../imagens/fundo2-black.png);
     background-attachment: fixed;
     background-size: cover;
     padding: 2em 1em;

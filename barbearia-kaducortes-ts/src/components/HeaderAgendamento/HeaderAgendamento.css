@@ -2,6 +2,15 @@
     font-family: 'Inconsolata', monospace;
 }
 
+
+body{
+    background-color: white;
+    height: 100vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
 #list li{
     font-size: 1.8em;
 }
@@ -62,3 +71,7 @@ div#center p {
         border-bottom: none;
     }
 }
+
+
+
+

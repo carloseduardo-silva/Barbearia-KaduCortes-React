@@ -1,9 +1,9 @@
-.home_header header{
+header{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../imagens/fundo3-black.png);
+    background-image: url(../../imagens/fundo3-black.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,7 +11,7 @@
     padding: 1em 0em 0em 0em;
     color: white;
     text-align: center;
-    height: 99vh;
+    height: 100vh;
 }
 
 section#topo{
@@ -64,3 +64,79 @@ p.topo-p {
     margin-bottom: 2em;
 
 }
+
+@media (min-width: 788px) {
+
+ 
+
+    #topo h1{
+        font-size: 5em;
+    }
+
+    #topo a.agendamento{
+        font-size: 1.2em;
+
+
+    }
+
+    .right{
+        text-align: right;
+        margin-right: 5em;
+        margin-bottom: 3.5em;
+
+    }
+
+    .mobile{
+        display: none;
+
+    }
+
+    .desktop{
+        display: flex;
+    }
+
+    .aside-footer{
+        text-align: left;
+    }
+    
+.li-icons{
+    display: block;
+}
+    
+    
+    
+
+   
+   
+    
+   
+}
+
+
+@media (min-width:1000px) {
+
+    header{
+        padding: 3.5em 0em 0em 0em;
+
+    }
+
+}
+
+
+@media (max-width: 395px ) {
+
+        body{
+            width: 172%;
+        }
+        
+        #topo p {
+            font-size: 1.3em;
+        }
+
+        #topo h1 {
+            font-size: 2.5em;
+        }
+
+      
+}
+

@@ -12,14 +12,13 @@
     font-size:2.7em;
 }
 
-nav{
+#nav-fixed nav{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: rgba(34, 34, 34, 0.779);
     padding: 22px 20px;
-    margin-bottom: 18vh;
-    width: 98.2%;
+    width: 100%;
 }
 
 a#logo{
@@ -35,13 +34,12 @@ a#logo:hover{
 #nav-fixed nav a#logo{
     text-decoration: none;
     color:white;
-    font-family: YellowTail, sans-serif;
+    font-family: 'YellowTail', sans-serif;
     font-size: 2.45em;
     font-weight: 800;
     
 }
 #nav-fixed nav ul {
-    display: flex;
     align-items: center;
     flex-direction: column;
     list-style: none;
@@ -149,7 +147,7 @@ a#logo:hover{
         margin-right: 7.5vw;
     }
 
-    nav ul {
+    #nav-fixed nav ul {
         width: 55%;
     }
 
@@ -158,14 +156,14 @@ a#logo:hover{
 
 @media (min-width:1000px) {
 
-    nav {
+    #nav-fixed nav {
         flex-direction: row;
         justify-content: space-between;
         padding:25px 40px;
        
     }
 
-    nav ul {
+    #nav-fixed nav ul {
         flex-direction: row;
         justify-content: space-around;
         width: 48%;
@@ -173,7 +171,7 @@ a#logo:hover{
         margin-right: 3em;
     }
 
-    nav ul li a {
+    #nav-fixed nav ul li a {
         font-size: 0.90em ;
     }
 
@@ -222,7 +220,7 @@ a#logo:hover{
         display: flex;
     }
 
-    nav ul li {
+    #nav-fixed nav ul li {
         margin:0em 1.25em;
     }
 
@@ -239,7 +237,7 @@ a#logo:hover{
 @media (max-width: 598px ) {
 
 
-   nav {
+    #nav-fixed nav {
     margin-bottom: 12vh;
     }
 

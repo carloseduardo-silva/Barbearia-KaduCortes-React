@@ -60,6 +60,13 @@ footer{
         justify-content: space-between;
     }
 
+    .aside-footer {
+        text-align: left;
+    }
+
+    .mobile {
+        display: none;
+    }
    
 }
 

@@ -2,12 +2,14 @@ import React from 'react'
 
 import "./ClienteData.css"
 
+import dadosImg from "../../../imagens/fundo2.jpg"
+
 import { HeaderAgendamento } from '../../../components/HeaderAgendamento/HeaderAgendamento'
 
 export const ClientData = () => {
   return (
     <div className='clientData_container'>
-      <HeaderAgendamento title='Dados do Cliente' bgImage='././clientData-bg.png'/>
+      <HeaderAgendamento title='Dados do Cliente' bgImage={dadosImg}/>
       <h2> INSIRA ABAIXO AS INFORMAÇÕES SOBRE VOCÊ</h2>
   
       <form id="form" name="form" className="client-info">
@@ -44,11 +46,11 @@ export const ClientData = () => {
           <div id="botoes">
       
             <div id="botao-voltar">
-              <a href="time.html"> <span className="material-symbols-outlined"  style={{fontSize:"68px"}}>arrow_circle_left</span> </a> </div>
+              <a href="/agendamento/horario"> <span className="material-symbols-outlined"  style={{fontSize:"68px"}}>arrow_circle_left</span> </a> </div>
         
             <div id="botao-marcar">
               
-                <a  href="confirmed.html">
+                <a  href="/agendamento/confirmado">
                   <span className="material-symbols-outlined" style={{fontSize:"68px"}}>
                   arrow_circle_right
                   </span>

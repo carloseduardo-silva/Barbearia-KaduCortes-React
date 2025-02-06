@@ -1,4 +1,11 @@
-import React from 'react'
+import about from "../../imagens/about-img4.jpg"
+import corte1 from "../../imagens/WhatsApp Image 2022-07-13 at 14.48.55.jpeg"
+import corte2 from "../../imagens/corte2.jpg"
+import corte3 from "../../imagens/WhatsApp Image 2022-07-13 at 14.48.38.jpeg"
+import corte4 from "../../imagens/WhatsApp Image 2022-07-13 at 14.48.20.jpeg"
+import corte5 from "../../imagens/WhatsApp Image 2022-07-13 at 14.52.08.jpeg"
+import corte6 from "../../imagens/corte1.jpg"
+import whatsappIcon from "../../imagens/icons8-whatsapp-24.png"
 
 //styles
 import "./Home.css"
@@ -18,7 +25,7 @@ export const Home = () => {
 
       <section id="about">
     
-    <div  className="foto"> <img src="/imagens/about-img4.jpg" alt=""/></div>
+    <div  className="foto"> <img src={about} alt=""/></div>
     
     <div  id="content">
         <h1 className=""> SOBRE NÓS </h1>
@@ -55,24 +62,24 @@ export const Home = () => {
           
               <div className="div-photo">
           
-                  <img src="/imagens/WhatsApp Image 2022-07-13 at 14.48.55.jpeg" alt=""/>
-                  <img src="/imagens/corte2.jpg" alt=""/>
+                  <img src={corte1} alt="corte"/>
+                  <img src={corte2} alt="corte"/>
                   
           
               </div>
           
               <div className="div-photo">
           
-                  <img src="/imagens/WhatsApp Image 2022-07-13 at 14.48.38.jpeg" alt=""/>
-                  <img src="/imagens/WhatsApp Image 2022-07-13 at 14.48.20.jpeg" alt="corte"/>
+                  <img src={corte3} alt="corte"/>
+                  <img src={corte4} alt="corte"/>
                   
           
               </div>
           
               <div className="div-photo">
 
-                  <img src="/imagens/WhatsApp Image 2022-07-13 at 14.52.08.jpeg" alt=""/>
-                  <img src="/imagens/corte1.jpg" alt=""/>
+                  <img src={corte5} alt=""/>
+                  <img src={corte6} alt=""/>
                   
                   
           
@@ -126,7 +133,7 @@ export const Home = () => {
                   <p> Entre em contato com a Barbearia KaduCortes's. Nós queremos te ajudar a implementar o seu estilo. </p>
 
                   <button>
-                      <img src="/imagens/icons8-whatsapp-24.png" alt=""/>
+                      <img src={whatsappIcon} alt=""/>
 
                       <a target="_blank" href="https://www.contate.me/barbearia-kaducortes">Agende pelo Whatsapp</a>
                   </button>

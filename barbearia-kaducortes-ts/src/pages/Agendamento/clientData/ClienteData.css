@@ -33,7 +33,7 @@ input.form-control{
     
 }
 
-div#botoes{
+.clientData_container div#botoes{
     display: flex;
     justify-content: space-between;
     width: 96vw;

@@ -21,7 +21,7 @@ export const Nav = () => {
                 <li> <a href="#about"> SOBRE NÓS </a> </li>
                 <li> <a href="#services"> SERVIÇOS</a> </li>
                 <li> <a href="#galeria"> GALERIA </a> </li>
-                <li> <a  target="_blank" href="agendamento/haircutType.html"> AGENDE </a></li>
+                <li> <a  target="_blank" href="agendamento/corte"> AGENDE </a></li>
                 <li className="li-mais"><a id="btn-mais" href="#contact"> CONTATO </a></li>
 
                 <li className="li-icons"> 

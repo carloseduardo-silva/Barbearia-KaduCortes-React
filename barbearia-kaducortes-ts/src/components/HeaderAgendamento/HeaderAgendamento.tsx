@@ -18,10 +18,10 @@ export const HeaderAgendamento:React.FC<HeaderAgendamentoProps> = ({title, bgIma
 
         <div id="list">
         <ul className="nav nav-tabs">
-            <li  role="presentation"><a href="#">HOME</a></li>
-            <li role="presentation"><a href="about.html">SOBRE</a></li>
-            <li role="presentation"><a href="haircuts.html">SERVIÇOS</a></li>
-            <li role="presentation"><a href="#">CONTATO</a></li>
+            <li  role="presentation"><a href="/">HOME</a></li>
+            <li role="presentation"><a href="/#about">SOBRE</a></li>
+            <li role="presentation"><a href="/#services">SERVIÇOS</a></li>
+            <li role="presentation"><a href="/#contact">CONTATO</a></li>
         </ul>
         </div>
 

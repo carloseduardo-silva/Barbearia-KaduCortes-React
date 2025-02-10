@@ -68,7 +68,7 @@ export const HaircutType = () => {
   }
 
   const updatePreco = (service:string, operator:string) =>{
-    console.log(service)
+
     switch(service){
       case "CORTE CABELO":
         if(operator == "+"){

@@ -18,8 +18,8 @@ section#horario{
     padding: 0.5em;
 }
 
-h1{
-    margin-top: 14px;
+h1#dayValue{
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -87,7 +87,7 @@ h1{
 
 .available-hour{
     font-size: 1.5em;
-
+    cursor: pointer;
 }
 
 div#botoes{
@@ -96,4 +96,31 @@ div#botoes{
     width: 96vw;
     margin: -2em auto 0 auto;
     
+}
+
+#botoes button{
+    background-color: transparent;
+    border: none;
+    color:  #f1b707;
+}
+
+.dataContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important; 
+    gap: 20px;
+    
+}
+
+.dataContainer svg{
+    font-size: 1.7em;
+    margin-top: 10px;
+    color: #f1b707;
+    cursor: pointer;
+}
+
+.dataContainer svg:hover{
+   background-color: rgba(238, 238, 238, 0.842);
+   border-radius: 4px;
 }

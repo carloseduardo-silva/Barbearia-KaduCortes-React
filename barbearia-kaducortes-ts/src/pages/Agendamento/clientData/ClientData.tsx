@@ -1,12 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import "./ClienteData.css"
 
 import dadosImg from "../../../imagens/fundo2.jpg"
 
 import { HeaderAgendamento } from '../../../components/HeaderAgendamento/HeaderAgendamento'
+import { useAgendamentoContext } from '../../../context/AgendamentoContext'
 
 export const ClientData = () => {
+
+  const {agendamento, setAgendamento} = useAgendamentoContext()
+  console.log(agendamento)
+
+  const [nome, setNome] = useState("")
+  const [email, setEmail] = useState("")
+  const [tel, setTel] = useState("")
+
+  const handleFormSubmit = (e:any) => {
+    e.preventDefault()
+
+    const user = {
+      nome,
+      email,
+      tel
+
+    }
+
+    if(user && agendamento){
+      setAgendamento({
+        tipoCorte : agendamento.tipoCorte,
+        precoCorte: agendamento.precoCorte,
+        horario: agendamento.horario,
+        dia: agendamento.dia,
+        dadosCliente: user,
+})
+    }
+
+  }
+
   return (
     <div className='clientData_container'>
       <HeaderAgendamento title='Dados do Cliente' bgImage={dadosImg}/>
@@ -50,11 +81,13 @@ export const ClientData = () => {
         
             <div id="botao-marcar">
               
-                <a  href="/agendamento/confirmado">
-                  <span className="material-symbols-outlined" style={{fontSize:"68px"}}>
-                  arrow_circle_right
-                  </span>
-                </a>
+               
+                  <button type='submit'>
+                    <span className="material-symbols-outlined" style={{fontSize:"68px"}}>
+                    arrow_circle_right
+                    </span>
+                  </button>
+               
             
             </div>
             
